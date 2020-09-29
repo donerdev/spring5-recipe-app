@@ -1,4 +1,4 @@
-this.categoryRepositorygframework.repositories;
+package categoryRepositorygframework.repositories;
 
 import guru.springframework.domain.Category;
 import guru.springframework.domain.UnitOfMeasure;
