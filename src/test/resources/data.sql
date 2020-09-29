@@ -1,0 +1,12 @@
+INSERT INTO category (description) VALUES ('T - American');
+INSERT INTO category (description) VALUES ('T - Italian');
+INSERT INTO category (description) VALUES ('T - Mexican');
+INSERT INTO category (description) VALUES ('T - Fast Food');
+INSERT INTO unit_of_measure (description) VALUES ('T - Teaspoon');
+INSERT INTO unit_of_measure (description) VALUES ('T - Tablespoon');
+INSERT INTO unit_of_measure (description) VALUES ('T - Cup');
+INSERT INTO unit_of_measure (description) VALUES ('T - Pinch');
+INSERT INTO unit_of_measure (description) VALUES ('T - Ounce');
+INSERT INTO unit_of_measure (description) VALUES ('T - Each');
+INSERT INTO unit_of_measure (description) VALUES ('T - Dash');
+INSERT INTO unit_of_measure (description) VALUES ('T - Pint');

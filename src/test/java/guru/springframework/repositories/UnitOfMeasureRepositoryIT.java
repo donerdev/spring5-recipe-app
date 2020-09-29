@@ -20,7 +20,7 @@ import static org.junit.Assert.assertEquals;
 public class UnitOfMeasureRepositoryIT {
 
     @Autowired
-    UnitOfMeasureRepository unitOfMeasureRepository;
+    private UnitOfMeasureRepository unitOfMeasureRepository;
 
     @Before
     public void setUp() throws Exception {
@@ -29,7 +29,7 @@ public class UnitOfMeasureRepositoryIT {
     @Test
     public void findByDescription() throws Exception {
 
-        Optional<UnitOfMeasure> uomOptional = unitOfMeasureRepository.findByDescription("Teaspoon");
+        Optional<UnitOfMeasure> uomOptional = this.unitOfMeasureRepository.findByDescription("Teaspoon");
 
         assertEquals("Teaspoon", uomOptional.get().getDescription());
     }
@@ -37,7 +37,7 @@ public class UnitOfMeasureRepositoryIT {
     @Test
     public void findByDescriptionCup() throws Exception {
 
-        Optional<UnitOfMeasure> uomOptional = unitOfMeasureRepository.findByDescription("Cup");
+        Optional<UnitOfMeasure> uomOptional = this.unitOfMeasureRepository.findByDescription("Cup");
 
         assertEquals("Cup", uomOptional.get().getDescription());
     }
